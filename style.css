@@ -30,3 +30,19 @@ img{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
 }
+
+/*Propriedades flex box */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+li, .rede-social {
+    margin-left: 48px;
+}
